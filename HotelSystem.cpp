@@ -18,6 +18,7 @@ HotelSystem::HotelSystem() {
     rooms.push_back(Room(102, "Phong 2", "Don", 500000, "Available"));
     rooms.push_back(Room(103, "Phong 3", "Doi", 1500000, "Available"));
     rooms.push_back(Room(104, "Phong 4", "Doi", 1500000, "Available"));
+    rooms.push_back(Room(105, "Phong 5", "Don", 1500000, "Available"));
 }
 
 bool HotelSystem::login() {
